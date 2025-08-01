@@ -1,0 +1,16 @@
+.animatedHeading {
+  background-image: linear-gradient(
+    -225deg,
+    #f34f09,
+    #897dff 29%,
+    #1148d7 67%,
+    #fff800
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: headline_animation 2s linear infinite;
+  display: inline-block;
+  padding: 10px 0;
+}
