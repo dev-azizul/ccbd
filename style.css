@@ -1,4 +1,8 @@
-.animatedHeading {
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 2px 0;
   background-image: linear-gradient(
     -225deg,
     #f34f09,
@@ -10,7 +14,17 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  animation: headline_animation 2s linear infinite;
-  display: inline-block;
-  padding: 10px 0;
+  animation: headline_animation 5s linear infinite;
+}
+
+@keyframes headline_animation {
+  100% {
+    background-position-x: 519.13%;
+    background-position-y: 50%;
+  }
+
+  0% {
+    background-position-x: 0%;
+    background-position-y: 50%;
+  }
 }
